@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Data submitted", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity.this,DataActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
